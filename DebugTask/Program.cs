@@ -10,6 +10,10 @@ namespace DebugTask
     {
         static void Main(string[] args)
         {
+            var generator = new Generator();
+            var key = generator.Generate();
+            Console.WriteLine(key);
+            Console.Read();
         }
     }
 }
